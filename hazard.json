@@ -1,0 +1,70 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://ifrcgo.github.io/monty/v0.1.0/schema.json"
+  ],
+  "type": "Collection",
+  "id": "hazard",
+  "title": "GLIDE Source Events",
+  "description": "A collection of GLIDE source events loaded into Monty",
+  "license": "unknown",
+  "roles": [
+    "event",
+    "source"
+  ],
+  "providers": [
+    {
+      "name": "GLIDE",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://glide.org/",
+      "email": "gliderep@adrc.asia"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2000-01-01T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "summaries": {
+    "datetime": {
+      "minimum": "2015-06-23T00:00:00Z",
+      "maximum": "2019-07-10T13:44:56Z"
+    },
+    "roles": [
+      "hazard",
+      "source"
+    ],
+    "monty:country_codes": [
+      "CHN",
+      "SPN"
+    ],
+    "monty:hazard_codes": [
+      "GH0001",
+      "GH0002",
+      "GH0004"
+    ]
+  },
+  "links": [
+    {
+      "href": "glide-hazard.json",
+      "rel": "self"
+    }
+  ]
+}
