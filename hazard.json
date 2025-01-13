@@ -9,7 +9,7 @@
   "description": "A collection of GLIDE source events loaded into Monty",
   "license": "unknown",
   "roles": [
-    "event",
+    "hazard",
     "source"
   ],
   "providers": [
