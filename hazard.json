@@ -9,8 +9,7 @@
   "description": "A collection of GLIDE source events loaded into Monty",
   "license": "unknown",
   "roles": [
-    "hazard",
-    "source"
+    "hazard"
   ],
   "providers": [
     {
@@ -48,8 +47,7 @@
       "maximum": "2019-07-10T13:44:56Z"
     },
     "roles": [
-      "hazard",
-      "source"
+      "hazard"
     ],
     "monty:country_codes": [
       "CHN",
